@@ -15,14 +15,14 @@ package org.dimigo.oop;
  * @version : 1.0
  */
 
-public class Car2 {
+public class Car3 {
 	private String Company;
 	private String Model;
 	private String Color;
 	private int MaxSpeed;
 	private int Price;
 	
-	public Car2(String Company, String Model, String Color, int MaxSpeed, int Price){
+	public Car3(String Company, String Model, String Color, int MaxSpeed, int Price){
 		/*Company = newCompany;
 		Model = newModel;
 		Color = newColor;
@@ -35,6 +35,12 @@ public class Car2 {
 		this.MaxSpeed = MaxSpeed;
 		this.Price = Price;
 		
+	}
+	public Car3(String Company, String Model, String Color, int MaxSpeed){
+		this(Company, Model, Color, MaxSpeed, 0);
+	}
+	public Car3(String Company, String Model, String Color){
+		this(Company, Model, Color, 0);
 	}
 	
 	public String getCompany() {
