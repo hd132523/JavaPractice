@@ -8,7 +8,19 @@ public class FigureTest {
 	
 		System.out.printf("원의 넓이 : %.1f\n", c.calcArea());
 		System.out.printf("삼각형 넓이 : %.1f\n", t.calcArea());
-		System.out.printf("사각형 넓이 : %.1f", r.calcArea());
+		System.out.printf("사각형 넓이 : %.1f\n", r.calcArea());
+		System.out.println();
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
+		
+		c.moveFigure(5, 5);
+		t.moveFigure(5, 5);
+		r.moveFigure(5, 5);
+		System.out.println();
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
 	}
 	
 }

@@ -14,4 +14,8 @@ public class Circle extends Figure {
 	protected double calcArea(){
 		return Math.PI*radius*radius;
 	}
+	protected void printCenter(){
+		System.out.printf("원 ");
+		super.printCenter();
+	}
 }
