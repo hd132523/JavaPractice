@@ -18,6 +18,8 @@ public class FigureTest {
 		t.moveFigure(5, 5);
 		r.moveFigure(5, 5);
 		System.out.println();
+		System.out.println("-- 중심좌표 이동 (x,y축 5씩)");
+		System.out.println();
 		c.printCenter();
 		t.printCenter();
 		r.printCenter();
