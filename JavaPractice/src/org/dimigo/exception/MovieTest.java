@@ -6,7 +6,7 @@ public class MovieTest{
 			Movie[] movies = {
 				new Movie("앤트맨", 12), new Movie("사도", 12), new Movie("베테랑", 15)
 			};
-			int age = 12;
+			int age = 13;
 			for(Movie movie : movies){
 				buyTicket(movie, age);
 			}
